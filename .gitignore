@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Tests file
+# Test files and directories
+test_reports/
+test-output/
+test-results/
+*.test
+test*.py
+tests/
+pytest_cache/
+.pytest_cache/
+

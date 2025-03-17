@@ -35,6 +35,16 @@ Este projeto é uma implementação de um pipeline ETL (Extract, Transform, Load
    pip install -r requirements.txt
    ```
 
+4. Configure as variáveis de ambiente:
+
+   Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+   ```
+   OPENAI_API_KEY=sua_chave_api_aqui
+   ```
+
+   Este arquivo será usado para armazenar chaves de API e outras informações sensíveis que não devem ser compartilhadas no controle de versão.
+
 ## Uso
 
 1. Configure as variáveis de ambiente necessárias (por exemplo, chaves de API, URLs de banco de dados, etc.).
@@ -44,6 +54,8 @@ Este projeto é uma implementação de um pipeline ETL (Extract, Transform, Load
    ```bash
    python etl.py
    ```
+
+
 
 ## Contribuição
 
