@@ -1,55 +1,56 @@
-# Projeto ETL com Python
+# ETL Project with Python
 
-Este projeto é uma implementação de um pipeline ETL (Extract, Transform, Load) utilizando Python. O objetivo é extrair dados de uma API, transformá-los conforme necessário e carregá-los em um banco de dados ou outro sistema de armazenamento.
+This project is an implementation of an ETL (Extract, Transform, Load) pipeline using Python. The goal is to extract data from an API, transform it as needed, and load it into a database or other storage system.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Python**: Linguagem de programação principal.
-- **Requests**: Biblioteca para realizar requisições HTTP.
-- **Pandas**: Biblioteca para manipulação e análise de dados (opcional, mas recomendada para transformações).
-- **SQLAlchemy**: Biblioteca para interagir com bancos de dados (opcional, mas recomendada para a etapa de carregamento).
+- **Python**: Main programming language.
+- **Requests**: Library for making HTTP requests.
+- **Pandas**: Library for data manipulation and analysis (optional, but recommended for transformations).
+- **SQLAlchemy**: Library for interacting with databases (optional, but recommended for the loading step).
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/seu-usuario/etl_project.git
    cd etl_project
    ```
 
-2. Crie um ambiente virtual e ative-o:
+2. Create a virtual environment and activate it:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+   source venv/bin/activate  # Mac & Linux 
+   source venv\Scripts\activate # Windows
    ```
 
-3. Instale as dependências:
+3. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Configure as variáveis de ambiente:
+4. Configure the environment variables:
 
-   Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+   Create a `.env` file in the root of the project with the following variables:
 
    ```
    OPENAI_API_KEY=sua_chave_api_aqui
    ```
 
-   Este arquivo será usado para armazenar chaves de API e outras informações sensíveis que não devem ser compartilhadas no controle de versão.
+   This file will be used to store API keys and other sensitive information that should not be shared in version control.
 
-## Uso
+## Usage
 
-1. Configure as variáveis de ambiente necessárias (por exemplo, chaves de API, URLs de banco de dados, etc.).
+1. Configure the necessary environment variables (e.g., API keys, database URLs, etc.).
 
-2. Execute o script ETL:
+2. Run the ETL script:
 
    ```bash
    python etl.py
@@ -57,10 +58,10 @@ Este projeto é uma implementação de um pipeline ETL (Extract, Transform, Load
 
 
 
-## Contribuição
+## Contribution
 
-Sinta-se à vontade para abrir issues e enviar pull requests. Para mudanças importantes, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+Feel free to open issues and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
