@@ -181,4 +181,9 @@ tests/
 pytest_cache/
 .pytest_cache/
 
-.vscode
+/.vscode/
+.venv/
+# VS Code settings
+.vscode/settings.json
+# VS Code extensions
+.vscode/extensions.json
